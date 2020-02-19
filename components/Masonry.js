@@ -122,12 +122,12 @@ export default class Masonry extends Component {
 	}
 
 	resolveBricks({ bricks, columns, spacing, priority }, offSet = 0) {
-		if (bricks.length === 0) {
+		/*if (bricks.length === 0) {
 			// clear and re-render
 			this.setState(state => ({
 				dataSource: state.dataSource.cloneWithRows([])
 			}));
-		}
+		}*/
 
 		// Calculate column width in case balance priority
 		let columnWidth = INVALID_COLUMN_WIDTH;
